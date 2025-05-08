@@ -1,0 +1,30 @@
+{
+  "name": "use-i18n-plugin",
+  "version": "1.0.1",
+  "description": "Enforce Eslint rules for i18n usage in Angular Application.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node test/test-linter.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "i18n",
+    "angular"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=8.15.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.16",
+    "@types/eslint": "^9.6.1",
+    "typescript": "^5.8.3",
+    "eslint": "^9.26.0"
+  }
+}
